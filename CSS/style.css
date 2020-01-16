@@ -1,7 +1,79 @@
-.container1 {
-    background-image: url('green1.jpg');
-    background-repeat: no-repeat;
+.jumbo1 {
+    background-color: #f8f9fa;
+	overflow: hidden!important;
+}
+
+.jumbo2 {
+    background-image: url("CSS/computer.jpg");
     background-size: cover;
-    height: 50%;
-    max-width: 100%;
+}
+
+.navbar {
+	background-color: #2C2C2C;
+}
+
+.m1 {
+	margin: 15px;
+}
+
+.container1 {
+	padding: 3rem;
+	margin-top: 3rem;
+	max-width: 52%;
+}
+
+.container2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+}
+
+.nav-link {
+	color: #999;
+    transition: ease-in-out color .15s;
+    padding-bottom: .5;
+    padding-top: .5;
+}
+
+.nav-link:hover {
+	color: #F5F4F4;
+}
+
+.brand-img {
+	padding-bottom: .5;
+	padding-top: .5;
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    opacity: 0.25;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+}
+.product-device-3 {
+    top: 95%;
+    right: auto;
+    left: 5%;
+}
+
+.d-md-block {
+    display: block;
 }
